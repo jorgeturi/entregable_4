@@ -107,19 +107,17 @@ btn** btn_find(btn** node, t_elem_btree value, int cmp(t_elem_btree, t_elem_btre
         }
 
         referencia = btn_find(&(*node)->left, value, cmp);///llamo por izq
-        printf("1el nodo apunta a %x que tiene el valor %d\n", *node, (*node)->value);
-       // if(referencia != NULL)                            ///de volver algo no nulo es que lo encontre
+        if(referencia != NULL)                            ///de volver algo no nulo es que lo encontre
         {
-       //     return referencia;
+            return referencia;
         }
         referencia = btn_find(&(*node)->right, value, cmp);///idem derecha
-        printf("2el nodo apunta a %x que tiene el valor %d\n", *node, (*node)->value);
-      //  if(referencia != NULL)
+        if(referencia != NULL)
         {
-      //      return referencia;
+            return referencia;
         }
     }
-    printf("a");
+
     return referencia;
 }
 
