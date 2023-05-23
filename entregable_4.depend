@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1683656287 source:c:\users\jorge\documents\programascode\entregable_4\stack_static.c
+	<stdio.h>
+	<stdlib.h>
+	"stack_static.h"
+
+1683656897 c:\users\jorge\documents\programascode\entregable_4\stack_static.h
+	"reading.h"
+
+1684798973 source:c:\users\jorge\documents\programascode\entregable_4\main.c
+	"general.h"
+	<stdio.h>
+	<time.h>
+
+1683684514 c:\users\jorge\documents\programascode\entregable_4\reading.h
+	<stdlib.h>
+
+1683684009 source:c:\users\jorge\documents\programascode\entregable_4\reading.c
+	"reading.h"
+
+1684799892 source:c:\users\jorge\documents\programascode\entregable_4\general.c
+	"general.h"
+
+1684800097 c:\users\jorge\documents\programascode\entregable_4\general.h
+	<stdlib.h>
+	<stdio.h>
+	"stack_static.h"
+	"arbolb.h"
+	"queue_static.h"
+
+1684799892 source:c:\users\jorge\documents\programascode\entregable_4\arbolb.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arbolb.h"
+
+1684851156 c:\users\jorge\documents\programascode\entregable_4\arbolb.h
+	"reading.h"
+
+1684611480 source:c:\users\jorge\documents\programascode\entregable_4\queue_static.c
+	<stdio.h>
+	<stdlib.h>
+	"queue_static.h"
+
+1684616346 c:\users\jorge\documents\programascode\entregable_4\queue_static.h
+	"reading.h"
+
