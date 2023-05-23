@@ -12,5 +12,4 @@
 
 
 #### Falta arreglar
-- Find cuando no encuentra el valor
 - Level (no puedo hacer la funcion)
