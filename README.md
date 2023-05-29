@@ -13,4 +13,5 @@
 
 #### Falta arreglar
 - Level (no puedo hacer la funcion)
-# de modificar algo, va ser nomas la funcion level, por si corrigen
+#### Auto-corrección
+Las funciones que invocan a funciones dentro a veces use la declaración hecha por la función y otras veces metia el nombre de una función externa
