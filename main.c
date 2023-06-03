@@ -14,7 +14,7 @@ int main()
 
     cola->a[24]->temperature = 800; ///MODIFICACION POR ALGUN MOTIVO DE ESE DATO PARA MOSTRAR ERROR SOBRE ESTE SENSOR
 
-    queue_print(cola);
+    //queue_print(cola);
     printf("el test del sensor 1 dio %d \n",queue_testing(cola));
     queue_free_readings(cola);
     }

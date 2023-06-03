@@ -338,7 +338,7 @@ void btn_insert_in_order(btn** arbol, t_elem_btree elem_arbol, int cmp(t_elem_bt
         return ;
     }
 
-    int comparacion = reading_compare_by_time((*arbol)->value, elem_arbol);
+    int comparacion = cmp((*arbol)->value, elem_arbol);
     if (comparacion == 1)                    ///si es mayor el valor a donde apunta arbol
     {
         btn_insert_in_order(&(*arbol)->left, elem_arbol, cmp);
@@ -436,7 +436,7 @@ void queue_free_readings(queue* cola){
 
 }
 
-///Otra manera que probe y al parecer funciona
+///Otra manera que probe y al parecer funciona pero no estoy seguro
 /**
 *   funcion utilizada en free_2
 */
